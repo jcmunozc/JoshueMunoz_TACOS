@@ -5,25 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3339f41-69e6-4206-8635-7c22162c08d2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/chromedriver/chromedriver107" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chromedriver/chromedriver108" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chromedriver/chromedriver109" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tests/CustomAssertions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chromedriver/chromedriver" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/elements/NewPostElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/elements/NewPostElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/elements/PostsElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/elements/PostsElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/steps/MainPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps/MainPageSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/steps/NewPostSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps/NewPostSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tests/FeatureOneTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/FeatureOneTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/elements/NewPostElements.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/elements/NewPostElements.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/elements/PostsElements.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/elements/PostsElements.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/steps/MainPageSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/steps/MainPageSteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tests/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tests/BaseTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tests/FeatureOneTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tests/FeatureOneTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng_groups.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng_groups.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
