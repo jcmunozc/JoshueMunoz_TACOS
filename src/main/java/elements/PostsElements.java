@@ -22,10 +22,10 @@ public class PostsElements extends BaseElements {
     @FindBy(xpath = "/html/body/div/small")
     private WebElement lblPostDetails;
 
-    @FindBy(className = "btn btn-outline-primary")
+    @FindBy(className = "btn-outline-primary")
     private WebElement btnEditPost;
 
-    @FindBy(className = "btn btn-outline-danger")
+    @FindBy(className = "btn-outline-danger")
     private WebElement btnDeletePost;
 
     public WebElement getLblVerifyTitle() {

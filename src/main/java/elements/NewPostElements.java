@@ -23,6 +23,15 @@ public class NewPostElements extends BaseElements {
     @FindBy(className = "btn-success")
     private WebElement btnCreate;
 
+    @FindBy(id = "error_1_id_title")
+    private WebElement lblTitleRequired;
+
+    @FindBy(id = "error_1_id_subtitle")
+    private WebElement lblSubtitleRequired;
+
+    @FindBy(id = "error_1_id_body")
+    private WebElement lblBodyRequired;
+
     public WebElement getTxtTitle() {
         return txtTitle;
     }
@@ -38,4 +47,10 @@ public class NewPostElements extends BaseElements {
     public WebElement getBtnCreate() {
         return btnCreate;
     }
+
+    public WebElement getLblTitleRequired() { return lblTitleRequired; }
+
+    public WebElement getLblSubtitleRequired() { return lblSubtitleRequired; }
+
+    public WebElement getLblBodyRequired() { return lblBodyRequired; }
 }

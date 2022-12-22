@@ -28,7 +28,6 @@ public class MainPageSteps extends BaseSteps {
     private static final String password = "G7vnvnomads";
 
     public void logIn() {
-        System.out.println("Logging in: ");
         webDriver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
         mainPageElements.getTxtUsername().sendKeys(username);
         mainPageElements.getTxtPassword().sendKeys(password);
@@ -38,5 +37,9 @@ public class MainPageSteps extends BaseSteps {
     public void navigateToNewPost() {
         wait.until(ExpectedConditions.visibilityOf(mainPageElements.getBtnNewPost()));
         mainPageElements.getBtnNewPost().click();
+    }
+
+    public String getUsername() {
+        return username;
     }
 }

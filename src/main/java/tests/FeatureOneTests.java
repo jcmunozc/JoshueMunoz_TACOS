@@ -10,7 +10,7 @@ public class FeatureOneTests extends BaseTest {
 
     public static final String title = "This is a test";
     public static final String subtitle = "an automated test execution";
-    public static final String body = "This is one test execution";
+    public static final String body = "This is... I want a taco not TACOS.";
 
     @Test
     public void testLogin() {
@@ -22,7 +22,23 @@ public class FeatureOneTests extends BaseTest {
         mainPageSteps.logIn();
         mainPageSteps.navigateToNewPost();
         newPostSteps.createNewPost(title, subtitle, body);
-        newPostSteps.validateNewPost(title, subtitle, body);
+        newPostSteps.validateNewPost(title, subtitle, body, mainPageSteps.getUsername());
+    }
+
+    @Test(groups = "Feature1")
+    public void testNewPostMissingTitle() {
+        mainPageSteps.logIn();
+        mainPageSteps.navigateToNewPost();
+        newPostSteps.createNewPost(" ", subtitle, body);
+        newPostSteps.validateTitleRequired();
+    }
+
+    @Test(groups = "Feature1")
+    public void testNewPostMissingSubtitle() {
+        mainPageSteps.logIn();
+        mainPageSteps.navigateToNewPost();
+        newPostSteps.createNewPost(title, " ", body);
+        newPostSteps.validateSubtitleRequired();
     }
 
 }

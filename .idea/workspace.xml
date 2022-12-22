@@ -5,26 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3339f41-69e6-4206-8635-7c22162c08d2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chromedriver/chromedriver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/elements/BaseElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/elements/MainPageElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/elements/NewPostElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/elements/PostsElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/steps/BaseSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/steps/MainPageSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/steps/NewPostSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tests/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tests/FeatureOneTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng_groups.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chromedriver/chromedriver107" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chromedriver/chromedriver108" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chromedriver/chromedriver109" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tests/CustomAssertions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chromedriver/chromedriver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/elements/NewPostElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/elements/NewPostElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/elements/PostsElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/elements/PostsElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/steps/MainPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps/MainPageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/steps/NewPostSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps/NewPostSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/FeatureOneTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/FeatureOneTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/elements/NewPostElements.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/elements/NewPostElements.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/elements/PostsElements.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/elements/PostsElements.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/steps/MainPageSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/steps/MainPageSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tests/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tests/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tests/FeatureOneTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tests/FeatureOneTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng_groups.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng_groups.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +39,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="2JEcjb9c6iDwmVomgNkOuxjKbZI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -65,8 +72,8 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.FeatureOneTests.testLogin">
-    <configuration name="FeatureOneTests.testLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG./Users/jym0921/Documents/TACOS/JoshueMunoz_TACOS/testng.xml">
+    <configuration name="FeatureOneTests.testNewPostMissingSubtitle" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JoshueMunoz_TACOS" />
       <extension name="coverage">
         <pattern>
@@ -76,8 +83,54 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.FeatureOneTests" />
-      <option name="METHOD_NAME" value="testLogin" />
+      <option name="METHOD_NAME" value="testNewPostMissingSubtitle" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FeatureOneTests.testNewPostMissingTitle" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JoshueMunoz_TACOS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.FeatureOneTests" />
+      <option name="METHOD_NAME" value="testNewPostMissingTitle" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FeatureOneTests.testNewPostSuccessful" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JoshueMunoz_TACOS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.FeatureOneTests" />
+      <option name="METHOD_NAME" value="testNewPostSuccessful" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/jym0921/Documents/TACOS/JoshueMunoz_TACOS/testng_groups.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JoshueMunoz_TACOS" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng_groups.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -96,8 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.FeatureOneTests.testLogin" />
         <item itemvalue="TestNG./Users/jym0921/Documents/TACOS/JoshueMunoz_TACOS/testng.xml" />
+        <item itemvalue="TestNG.FeatureOneTests.testNewPostSuccessful" />
+        <item itemvalue="TestNG./Users/jym0921/Documents/TACOS/JoshueMunoz_TACOS/testng_groups.xml" />
+        <item itemvalue="TestNG.FeatureOneTests.testNewPostMissingSubtitle" />
+        <item itemvalue="TestNG.FeatureOneTests.testNewPostMissingTitle" />
       </list>
     </recent_temporary>
   </component>
